@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDDC2AB4197A288F00A7CEFC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDC2AB3197A288F00A7CEFC /* Cocoa.framework */; };
+		BDDC2ABE197A288F00A7CEFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDDC2ABC197A288F00A7CEFC /* InfoPlist.strings */; };
+		BDDC2AC0197A288F00A7CEFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDC2ABF197A288F00A7CEFC /* main.m */; };
+		BDDC2AC4197A288F00A7CEFC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BDDC2AC2197A288F00A7CEFC /* Credits.rtf */; };
+		BDDC2AC7197A288F00A7CEFC /* albAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDC2AC6197A288F00A7CEFC /* albAppDelegate.m */; };
+		BDDC2ACA197A288F00A7CEFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDDC2AC8197A288F00A7CEFC /* MainMenu.xib */; };
+		BDDC2ACC197A288F00A7CEFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDC2ACB197A288F00A7CEFC /* Images.xcassets */; };
+		BDDC2AD3197A288F00A7CEFC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDC2AD2197A288F00A7CEFC /* XCTest.framework */; };
+		BDDC2AD4197A288F00A7CEFC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDC2AB3197A288F00A7CEFC /* Cocoa.framework */; };
+		BDDC2ADC197A288F00A7CEFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDDC2ADA197A288F00A7CEFC /* InfoPlist.strings */; };
+		BDDC2ADE197A288F00A7CEFC /* spacemouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDC2ADD197A288F00A7CEFC /* spacemouseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDDC2AD5197A288F00A7CEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDDC2AA8197A288F00A7CEFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDC2AAF197A288F00A7CEFC;
+			remoteInfo = spacemouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDDC2AB0197A288F00A7CEFC /* spacemouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spacemouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDC2AB3197A288F00A7CEFC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BDDC2AB6197A288F00A7CEFC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BDDC2AB7197A288F00A7CEFC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BDDC2AB8197A288F00A7CEFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDDC2ABB197A288F00A7CEFC /* spacemouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spacemouse-Info.plist"; sourceTree = "<group>"; };
+		BDDC2ABD197A288F00A7CEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDDC2ABF197A288F00A7CEFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDDC2AC1197A288F00A7CEFC /* spacemouse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spacemouse-Prefix.pch"; sourceTree = "<group>"; };
+		BDDC2AC3197A288F00A7CEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BDDC2AC5197A288F00A7CEFC /* albAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = albAppDelegate.h; sourceTree = "<group>"; };
+		BDDC2AC6197A288F00A7CEFC /* albAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = albAppDelegate.m; sourceTree = "<group>"; };
+		BDDC2AC9197A288F00A7CEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BDDC2ACB197A288F00A7CEFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDDC2AD1197A288F00A7CEFC /* spacemouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spacemouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDC2AD2197A288F00A7CEFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BDDC2AD9197A288F00A7CEFC /* spacemouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spacemouseTests-Info.plist"; sourceTree = "<group>"; };
+		BDDC2ADB197A288F00A7CEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDDC2ADD197A288F00A7CEFC /* spacemouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spacemouseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDDC2AAD197A288F00A7CEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDC2AB4197A288F00A7CEFC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDC2ACE197A288F00A7CEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDC2AD4197A288F00A7CEFC /* Cocoa.framework in Frameworks */,
+				BDDC2AD3197A288F00A7CEFC /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDDC2AA7197A288F00A7CEFC = {
+			isa = PBXGroup;
+			children = (
+				BDDC2AB9197A288F00A7CEFC /* spacemouse */,
+				BDDC2AD7197A288F00A7CEFC /* spacemouseTests */,
+				BDDC2AB2197A288F00A7CEFC /* Frameworks */,
+				BDDC2AB1197A288F00A7CEFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDDC2AB1197A288F00A7CEFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC2AB0197A288F00A7CEFC /* spacemouse.app */,
+				BDDC2AD1197A288F00A7CEFC /* spacemouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDDC2AB2197A288F00A7CEFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC2AB3197A288F00A7CEFC /* Cocoa.framework */,
+				BDDC2AD2197A288F00A7CEFC /* XCTest.framework */,
+				BDDC2AB5197A288F00A7CEFC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDDC2AB5197A288F00A7CEFC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC2AB6197A288F00A7CEFC /* AppKit.framework */,
+				BDDC2AB7197A288F00A7CEFC /* CoreData.framework */,
+				BDDC2AB8197A288F00A7CEFC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BDDC2AB9197A288F00A7CEFC /* spacemouse */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC2AC5197A288F00A7CEFC /* albAppDelegate.h */,
+				BDDC2AC6197A288F00A7CEFC /* albAppDelegate.m */,
+				BDDC2AC8197A288F00A7CEFC /* MainMenu.xib */,
+				BDDC2ACB197A288F00A7CEFC /* Images.xcassets */,
+				BDDC2ABA197A288F00A7CEFC /* Supporting Files */,
+			);
+			path = spacemouse;
+			sourceTree = "<group>";
+		};
+		BDDC2ABA197A288F00A7CEFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC2ABB197A288F00A7CEFC /* spacemouse-Info.plist */,
+				BDDC2ABC197A288F00A7CEFC /* InfoPlist.strings */,
+				BDDC2ABF197A288F00A7CEFC /* main.m */,
+				BDDC2AC1197A288F00A7CEFC /* spacemouse-Prefix.pch */,
+				BDDC2AC2197A288F00A7CEFC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDDC2AD7197A288F00A7CEFC /* spacemouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC2ADD197A288F00A7CEFC /* spacemouseTests.m */,
+				BDDC2AD8197A288F00A7CEFC /* Supporting Files */,
+			);
+			path = spacemouseTests;
+			sourceTree = "<group>";
+		};
+		BDDC2AD8197A288F00A7CEFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC2AD9197A288F00A7CEFC /* spacemouseTests-Info.plist */,
+				BDDC2ADA197A288F00A7CEFC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDDC2AAF197A288F00A7CEFC /* spacemouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDC2AE1197A288F00A7CEFC /* Build configuration list for PBXNativeTarget "spacemouse" */;
+			buildPhases = (
+				BDDC2AAC197A288F00A7CEFC /* Sources */,
+				BDDC2AAD197A288F00A7CEFC /* Frameworks */,
+				BDDC2AAE197A288F00A7CEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spacemouse;
+			productName = spacemouse;
+			productReference = BDDC2AB0197A288F00A7CEFC /* spacemouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDDC2AD0197A288F00A7CEFC /* spacemouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDC2AE4197A288F00A7CEFC /* Build configuration list for PBXNativeTarget "spacemouseTests" */;
+			buildPhases = (
+				BDDC2ACD197A288F00A7CEFC /* Sources */,
+				BDDC2ACE197A288F00A7CEFC /* Frameworks */,
+				BDDC2ACF197A288F00A7CEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDC2AD6197A288F00A7CEFC /* PBXTargetDependency */,
+			);
+			name = spacemouseTests;
+			productName = spacemouseTests;
+			productReference = BDDC2AD1197A288F00A7CEFC /* spacemouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDDC2AA8197A288F00A7CEFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = alb;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = alb;
+				TargetAttributes = {
+					BDDC2AD0197A288F00A7CEFC = {
+						TestTargetID = BDDC2AAF197A288F00A7CEFC;
+					};
+				};
+			};
+			buildConfigurationList = BDDC2AAB197A288F00A7CEFC /* Build configuration list for PBXProject "spacemouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDDC2AA7197A288F00A7CEFC;
+			productRefGroup = BDDC2AB1197A288F00A7CEFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDDC2AAF197A288F00A7CEFC /* spacemouse */,
+				BDDC2AD0197A288F00A7CEFC /* spacemouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDDC2AAE197A288F00A7CEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDC2ABE197A288F00A7CEFC /* InfoPlist.strings in Resources */,
+				BDDC2ACC197A288F00A7CEFC /* Images.xcassets in Resources */,
+				BDDC2AC4197A288F00A7CEFC /* Credits.rtf in Resources */,
+				BDDC2ACA197A288F00A7CEFC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDC2ACF197A288F00A7CEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDC2ADC197A288F00A7CEFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDDC2AAC197A288F00A7CEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDC2AC7197A288F00A7CEFC /* albAppDelegate.m in Sources */,
+				BDDC2AC0197A288F00A7CEFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDC2ACD197A288F00A7CEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDC2ADE197A288F00A7CEFC /* spacemouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDDC2AD6197A288F00A7CEFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDDC2AAF197A288F00A7CEFC /* spacemouse */;
+			targetProxy = BDDC2AD5197A288F00A7CEFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDDC2ABC197A288F00A7CEFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDC2ABD197A288F00A7CEFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDDC2AC2197A288F00A7CEFC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDC2AC3197A288F00A7CEFC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BDDC2AC8197A288F00A7CEFC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDC2AC9197A288F00A7CEFC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BDDC2ADA197A288F00A7CEFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDC2ADB197A288F00A7CEFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDDC2ADF197A288F00A7CEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDDC2AE0197A288F00A7CEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDDC2AE2197A288F00A7CEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spacemouse/spacemouse-Prefix.pch";
+				INFOPLIST_FILE = "spacemouse/spacemouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDDC2AE3197A288F00A7CEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spacemouse/spacemouse-Prefix.pch";
+				INFOPLIST_FILE = "spacemouse/spacemouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BDDC2AE5197A288F00A7CEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/spacemouse.app/Contents/MacOS/spacemouse";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spacemouse/spacemouse-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "spacemouseTests/spacemouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BDDC2AE6197A288F00A7CEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/spacemouse.app/Contents/MacOS/spacemouse";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spacemouse/spacemouse-Prefix.pch";
+				INFOPLIST_FILE = "spacemouseTests/spacemouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDDC2AAB197A288F00A7CEFC /* Build configuration list for PBXProject "spacemouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDC2ADF197A288F00A7CEFC /* Debug */,
+				BDDC2AE0197A288F00A7CEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDC2AE1197A288F00A7CEFC /* Build configuration list for PBXNativeTarget "spacemouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDC2AE2197A288F00A7CEFC /* Debug */,
+				BDDC2AE3197A288F00A7CEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDDC2AE4197A288F00A7CEFC /* Build configuration list for PBXNativeTarget "spacemouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDC2AE5197A288F00A7CEFC /* Debug */,
+				BDDC2AE6197A288F00A7CEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDDC2AA8197A288F00A7CEFC /* Project object */;
+}
